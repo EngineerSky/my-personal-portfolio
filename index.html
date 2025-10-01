@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portofolio website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/1c9928aaa4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/logo.webp" class="logo">
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li> 
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portforlio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I`m <span>Llyoid</span><br> Nyahuni From Zimbabwe</h1>
+
+            </div>
+        </div>
+    </div>
+    <!---------------About-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user-background.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p><p>I’m a passionate software engineering student specializing in app development. I create innovative, user-friendly mobile and desktop applications designed to solve real problems and deliver exceptional user experiences.</p>
+
+                      <p>Whether you need a sleek mobile app, a powerful cross-platform solution, or seamless backend integration, I’m committed to turning your ideas into high-quality, scalable apps that drive success.</p>
+
+                       <p>Let’s collaborate to build apps that not only look great but also perform flawlessly, helping your business grow in today’s digital world.</p>
+                    </p>
+
+                   
+               <div class="tabe-titles">
+                        <p class="tabe-links active-link" onclick="opentabe('skills')">Skills</p>
+                        <p class="tabe-links" onclick="opentabe('experiance')">Experiance</p>
+                        <p class="tabe-links" onclick="opentabe('education')">Education</p>  
+                    </div>
+                    <div class="tabe-coontents active-tabe" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developement</span><br>Web App Developement</li>
+                            <li><span>App Developement</span><br>Building Android/IOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabe-coontents" id="experiance">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design training at University of Zimbabwe</li>
+                            <li><span>2019 - 2021</span><br>Team Leader at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Exercutive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Intership at ekart eCommerce</li>
+                        </ul>
+                    </div> 
+                    <div class="tabe-coontents" id="education">
+
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design training at University of Zimbabwe</li>
+                            <li><span>2016</span><br>MBA from MIT Banglalore</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------Services--------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <P><ul>
+                        <li>✅ Custom-designed, fully responsive websites</li>
+                        <hr>
+                        <li>✅ Landing pages for products, events, or services</li>
+                        <hr>
+                        <li>✅ Personal portfolio or branding websites</li>
+                        <hr>
+                        <li>✅ Business and company websites</li>
+                        <hr>
+                        <li>✅ Website redesigns</li>
+                        <hr>
+                        <li>✅ Integration with contact forms, Google Maps & social media</li>
+                        <hr>
+                       </ul>
+
+
+                        🖥 Let’s bring your vision to life — clean, fast, and future-ready.
+</P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designer</h2>
+                    <P><ul style="list-style: none; padding: 0;">
+                        <li>✅ Clean and modern UI designs tailored to your brand</li>
+                        <hr>
+                        <li>✅ Wireframing and prototyping (Figma, Adobe XD)</li>
+                        <hr>
+                        <li>✅ User experience research & design</li>
+                         <hr>
+                        <li>✅ Mobile-first and responsive designs</li>
+                        <hr>
+                        <li>✅ User flow planning and optimization</li>
+                        <hr>
+                        <li>✅ Collaboration with developers to ensure accurate implementation</li>
+                        <hr>
+                        </ul>
+                        </P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developement</h2>
+                    <P><hr>
+                       <li>✅ Cross-platform mobile apps (Android & iOS)</li>
+                        <hr>
+                       <li>✅ Custom business & productivity tools</li>
+                       <hr>
+                       <li>✅ API integrations & backend support</li>
+                       <hr>
+                       <li>✅ Clean UI with excellent UX principles</li>
+                       <hr>
+                       <li>✅ Fast loading, bug-free & optimized apps</li>
+                       <hr>
+                       <li>✅ App store deployment support</li>
+                       <hr>
+                       </P>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------Portfolio--------------------------------->
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Download app from play store 
+                            jahbg yihesnnbnknltrsy 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png.jpeg">
+                     <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Download app from play store 
+                            jahbg yihesnnbnknltrsy 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png.jpeg">
+                     <div class="layer">
+                        <h3>Online Shopping</h3>
+                        <p>Download app from play store 
+                            jahbg yihesnnbnknltrsy 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----------------------------CONTACT-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h class="sub-title">Contact Me</h1>
+                    <P><i class="fa-solid fa-paper-plane"></i>nyahunixllyoid@gmail.com</P>
+                    <p><i class="fa-solid fa-square-phone"></i>+263779574088</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/SkyWemaNice"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Llyoid.<i class="fa-solid fa-heart"></i> Let`s Make Lives Different</p>
+    </div>
+</div>
+    
+<script>
+
+    var tabelinks = document.getElementsByClassName("tabe-links");
+    var tabecoontents = document.getElementsByClassName("tabe-coontents");
+
+    function opentabe(tabename){
+        for(tabelink of tabelinks){
+           tabelink.classList.remove("active-link");
+        }
+        for(tabecoontent of tabecoontents){
+           tabecoontent.classList.remove("active-tabe");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabename).classList.add("active-tabe");
+    }
+
+</script>
+
+<script>
+
+var sidemenu= document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0"
+}
+
+function closemenu(){
+    sidemenu.style.right="-200px"
+  
+}
+
+</script>
+    
+</body>
+<script>
+  const scriptURL ='https://script.google.com/macros/s/AKfycbwpYLibDbwgLw-bp51ZZ1xgQIbP49QHZ4C21KFYFoYSZFaNAdLyPc9T-ev1FIC1cDZzng/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById(msg)
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML= ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</html>
